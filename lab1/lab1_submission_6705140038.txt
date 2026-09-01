@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140038
+timestamp: 2026-09-01T07:12:15Z
+hostname: ubuntu
+---[user: getent passwd]---
+kanya871:x:1001:1001::/home/kanya871:/bin/sh
+---[group: getent group]---
+support:x:1001:
+---[user-in-group: id]---
+uid=1001(kanya871) gid=1001(support) groups=1001(support)
+---[file stat: home file mode/owner]---
+/home/kanya871/report_5976.txt mode=750 owner=kanya871 group=support
+---[sshd effective config]---
+port 2402
+permitrootlogin yes
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 6eaf2d77ac58ba068f811706d7206124f325c751a56b776146cd675e6b372e03
+===END LAB1 SUBMISSION===
